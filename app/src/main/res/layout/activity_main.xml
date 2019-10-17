@@ -16,78 +16,69 @@
          android:textStyle="bold"/>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="4dp"
         android:background="@color/colorAccent"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"/>
          <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-             <TextView
-                 android:layout_width="wrap_content"
-                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="16dp"
-                 android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp">
+               <TextView
+                 android:layout_width="85dp"
+                 android:layout_height="85dp"
                  android:background="@color/colorBlue"
-
-                 android:padding="32dp"
+                 android:gravity="center"
                  android:text="JAN"
                  android:textColor="@color/colorWhite"
-                 android:textSize="18sp" />
-             <ImageView
+                 android:textSize="14sp" />
+               <ImageView
                  android:layout_width="match_parent"
                  android:layout_height="match_parent"
                  android:src="@drawable/january"
-                 android:scaleType="centerCrop"
-                 android:layout_marginTop="16dp"
-                 android:layout_marginRight="16dp"/>
+                 android:scaleType="centerCrop"/>
          </LinearLayout>
          <LinearLayout
            android:layout_width="match_parent"
-           android:layout_height="wrap_content">
-
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="16dp"
+           android:layout_marginRight="16dp"
+           android:layout_marginTop="16dp">
              <TextView
-                 android:layout_width="wrap_content"
-                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="16dp"
-                 android:layout_marginTop="16dp"
+                 android:layout_width="85dp"
+                 android:layout_height="85dp"
                  android:background="@color/colorBlue"
-                 android:textStyle="bold"
-                 android:padding="32dp"
+                 android:gravity="center"
                  android:text="FEB"
                  android:textColor="@color/colorWhite"
-                 android:textSize="18sp" />
+                 android:textSize="14sp" />
            <ImageView
                android:layout_width="match_parent"
                android:layout_height="match_parent"
                android:src="@drawable/february"
-               android:scaleType="centerCrop"
-               android:layout_marginTop="16dp"
-               android:layout_marginRight="16dp"/>
+               android:scaleType="centerCrop"/>
            </LinearLayout>
            <LinearLayout
                android:layout_width="match_parent"
-               android:layout_height="wrap_content">
-
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="16dp"
+               android:layout_marginRight="16dp"
+               android:layout_marginTop="16dp">
                <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:layout_marginLeft="16dp"
-                   android:layout_marginTop="16dp"
+                   android:layout_width="85dp"
+                   android:layout_height="85dp"
                    android:background="@color/colorBlue"
-                   android:textStyle="bold"
-                   android:padding="32dp"
+                   android:gravity="center"
                    android:text="MAR"
                    android:textColor="@color/colorWhite"
-                   android:textSize="18sp" />
+                   android:textSize="14sp" />
                <ImageView
                    android:layout_width="match_parent"
                    android:layout_height="match_parent"
                    android:src="@drawable/march"
-                   android:scaleType="centerCrop"
-                   android:layout_marginTop="16dp"
-                   android:layout_marginRight="16dp"/>
+                   android:scaleType="centerCrop"/>
            </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
@@ -97,59 +88,51 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="8dp"/>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="4dp"
         android:background="@color/colorAccent"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"/>
          <LinearLayout
              android:layout_width="match_parent"
-             android:layout_height="wrap_content">
-
-             <TextView
-                 android:layout_width="wrap_content"
-                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="16dp"
-                 android:layout_marginTop="16dp"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="16dp"
+             android:layout_marginRight="16dp"
+             android:layout_marginTop="16dp">
+         <TextView
+                 android:layout_width="85dp"
+                 android:layout_height="85dp"
                  android:background="@color/colorBlue"
-                 android:textStyle="bold"
-                 android:padding="32dp"
                  android:text="APR"
+                 android:gravity="center"
                  android:textColor="@color/colorWhite"
-                 android:textSize="18sp" />
+                 android:textSize="14sp" />
              <ImageView
                  android:layout_width="match_parent"
                  android:layout_height="match_parent"
                  android:src="@drawable/april"
-                 android:scaleType="centerCrop"
-                 android:layout_marginTop="16dp"
-                 android:layout_marginRight="16dp"/>
+                 android:scaleType="centerCrop"/>
          </LinearLayout>
      <LinearLayout
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         >
-
+         android:layout_marginLeft="16dp"
+         android:layout_marginRight="16dp"
+         android:layout_marginTop="16dp">
          <TextView
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_marginLeft="16dp"
-             android:layout_marginTop="16dp"
+             android:layout_width="85dp"
+             android:layout_height="85dp"
              android:background="@color/colorBlue"
-             android:textStyle=""
-             android:padding="32dp"
+             android:gravity="center"
              android:text="MAY"
              android:textColor="@color/colorWhite"
-             android:textSize="18sp" />
+             android:textSize="14sp" />
          <ImageView
              android:layout_width="match_parent"
              android:layout_height="match_parent"
              android:src="@drawable/may"
-             android:scaleType="centerCrop"
-             android:layout_marginTop="16dp"
-             android:layout_marginRight="16dp"
-             />
+             android:scaleType="centerCrop"/>
      </LinearLayout>
 </LinearLayout>
